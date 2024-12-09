@@ -13,7 +13,7 @@ export default function CTA() {
           hallinnan ja paineensiedon, vireystilan säätelyn, motivaation,
           tavoitteiden asettelun ja itseluottamuksen vahvistamisen parissa.{" "}
         </p>
-        <Link href='/' className=' bg-slate-50 rounded-md text-gray-800 px-6 py-2'>
+        <Link href='/varaus' className=' bg-slate-50 rounded-md text-gray-800 px-6 py-2'>
           Varaa tapaaminen
         </Link>
       </div>
