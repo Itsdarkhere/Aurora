@@ -16,12 +16,12 @@ const Introduction = () => {
             auttaa löytämään tasapaino, joka tukee sekä tavoitteidesi
             saavuttamisessa että kokonaisvaltaisessa jaksamisessa“
           </p>
-          <div className=' flex flex-row gap-4'>
-            <Link href="/varaus" className='bg-slate-50 rounded-md text-gray-800 px-6 py-2'>
-              Varaa tapaaminen
+          <div className='flex flex-col justify-center md:justify-start items-center md:flex-row gap-4'>
+            <Link href="/varaus" className='bg-white w-full md:w-auto text-center text-gray-900 px-6 py-3 rounded-lg font-medium hover:bg-gray-100 transition-colors'>
+              Varaa Tapaaminen
             </Link>
-            <Link href="/aurora" className='border border-slate-50 text-slate-50 rounded-md px-6 py-2'>
-              Lue lisää
+            <Link href="/aurora" className='border w-full md:w-auto text-center border-white text-white px-6 py-3 rounded-lg font-medium hover:bg-white/10 transition-colors'>
+              Lue Lisää
             </Link>
           </div>
         </div>
