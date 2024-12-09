@@ -2,7 +2,7 @@ import React from 'react';
 
 const Quote = () => {
   return (
-    <section className="bg-gray-50 px-4 py-20">
+    <section className="bg-gray-50 px-4 py-44">
       <div className="max-w-4xl text-green-900 mx-auto px-4 relative">
         <div className="absolute -top-2 left-0 text-sage-200/50 text-4xl" aria-hidden="true">
           ★
