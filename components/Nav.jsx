@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Nav = () => {
@@ -6,27 +7,27 @@ const Nav = () => {
       <div className='max-w-7xl mx-auto h-16 flex items-center justify-between'>
         {/* Left side navigation links */}
         <div className='flex items-center space-x-8'>
-          <a
+          <Link
             href='/'
             className='text-gray-600 hover:text-gray-900 transition-colors'
           >
             Kotisivu
-          </a>
-          <a
+          </Link>
+          <Link
             href='/aurora'
             className='text-gray-600 hover:text-gray-900 transition-colors'
           >
             Aurora
-          </a>
+          </Link>
         </div>
 
         {/* Right side button */}
-        <a
+        <Link
           href='#'
           className='bg-green-800 text-white px-4 py-2 rounded-md hover:bg-green-700 transition-colors'
         >
           Varaa tapaaminen
-        </a>
+        </Link>
       </div>
     </nav>
   );
