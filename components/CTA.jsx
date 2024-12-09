@@ -7,7 +7,7 @@ export default function CTA() {
         <h3 className=' text-4xl font-bold text-white mb-4'>
           Kehitä itseäsi ammattilaisena
         </h3>
-        <p className=' leading-6 text-lg max-w-3xl text-gray-300  mb-12'>
+        <p className=' leading-6 text-lg max-w-2xl text-gray-300  mb-12'>
           Psyykkinen valmennuksen avulla voit saada apua monenlaisiin
           haasteisiin ja voimme työskennellä tapaamisilla muun muassa stressin
           hallinnan ja paineensiedon, vireystilan säätelyn, motivaation,
