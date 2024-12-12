@@ -11,6 +11,9 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        "indie-flower": "var(--font-indie)",
+      }
     },
   },
   plugins: [],

@@ -20,7 +20,7 @@ const Introduction = () => {
             <Link href="/varaus" className='bg-white w-full md:w-auto text-center text-gray-900 px-6 py-3 rounded-lg font-medium hover:bg-gray-100 transition-colors'>
               Varaa Tapaaminen
             </Link>
-            <Link href="/aurora" className='border w-full md:w-auto text-center border-white text-white px-6 py-3 rounded-lg font-medium hover:bg-white/10 transition-colors'>
+            <Link href="/lue-lisaa" className='border w-full md:w-auto text-center border-white text-white px-6 py-3 rounded-lg font-medium hover:bg-white/10 transition-colors'>
               Lue Lisää
             </Link>
           </div>

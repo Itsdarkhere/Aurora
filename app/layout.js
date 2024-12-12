@@ -1,18 +1,19 @@
-import localFont from "next/font/local";
 import "./globals.css";
 import Footer from "@/components/Footer";
 import Nav from "@/components/Nav";
+import { Poppins, Indie_Flower } from "next/font/google";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
+// If loading a variable font, you don't need to specify the font weight
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
 });
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
+
+const indieFlower = Indie_Flower({
+  subsets: ['latin'],
+  weight: ['400'],
+  variable: '--font-indie',
+})
 
 export const metadata = {
   title: "Create Next App",
@@ -21,10 +22,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+    <html lang='en'>
+      <body className={`${poppins.className} ${indieFlower.variable} antialiased`}>
         <Nav />
         {children}
         <Footer />
