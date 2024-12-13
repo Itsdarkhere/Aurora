@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import quote from "../public/quote.svg"
+import quote from "../public/quote_white.svg"
 import Image from "next/image";
 import arrow_right from "../public/chevron-right.svg"
 
@@ -22,7 +22,7 @@ const Introduction = () => {
           <div className='flex flex-col justify-center md:justify-start items-center md:flex-row gap-4'>
           <Link
             href='/varaus'
-            className='bg-white min-w-64 flex flex-row gap-2 justify-center items-center md:min-w-0 text-center text-gray-900 px-6 py-3 rounded-lg font-medium hover:bg-gray-100 transition-colors'
+            className='bg-white w-full md:w-auto flex flex-row gap-2 justify-center items-center md:min-w-0 text-center text-gray-900 px-6 py-3 rounded-lg font-medium hover:bg-gray-100 transition-colors'
           >
             Varaa Tapaaminen
             <Image src={arrow_right} alt="arrow to the right" height={18} width={18} />
