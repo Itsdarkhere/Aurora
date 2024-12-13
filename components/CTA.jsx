@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import woman_working from "../public/woman_work.jpg"
+import woman_working from "../public/woman_work.jpg";
 
 export default function CTA() {
   return (
@@ -11,7 +11,7 @@ export default function CTA() {
             src={woman_working}
             fill
             alt='Kaksi naista työskentelee tietokoneella'
-            className="object-cover w-full h-full opacity-85"
+            className='object-cover w-full h-full opacity-85'
           />
         </div>
         <div className=' flex flex-col justify-center items-start'>
@@ -27,13 +27,13 @@ export default function CTA() {
           <div className='flex flex-col justify-center md:justify-start items-center md:flex-row gap-4'>
             <Link
               href='/varaus'
-              className='bg-white md:bg-green-800 min-w-64 md:min-w-0 text-center text-green-950 md:text-white px-6 py-3 rounded-lg font-medium md:hover:bg-gray-100 transition-colors'
+              className='bg-white md:bg-theme min-w-64 md:min-w-0 text-center text-green-950 md:text-white px-6 py-3 rounded-lg font-medium transition-colors hover:bg-white/90 md:hover:bg-green-900'
             >
               Varaa Tapaaminen
             </Link>
             <Link
               href='/lue-lisaa'
-              className='border min-w-64 md:min-w-0 text-center border-white md:border-green-800 text-white md:text-green-800 px-6 py-3 rounded-lg font-medium hover:bg-white/10 transition-colors'
+              className='border min-w-64 md:min-w-0 text-center border-white md:border-theme text-white md:text-theme px-6 py-3 rounded-lg font-medium hover:bg-white/10 md:hover:bg-slate-100 transition-colors'
             >
               Lue Lisää
             </Link>

@@ -21,7 +21,7 @@ const Nav = () => {
           </Link>
           <Link
             href='/varaus'
-            className='bg-green-800 text-sm font-medium text-white px-4 py-2 rounded-md hover:bg-green-700 transition-colors'
+            className=' bg-theme text-sm font-medium text-white px-4 py-2 rounded-md hover:bg-green-900 transition-colors'
           >
             Varaa tapaaminen
           </Link>
