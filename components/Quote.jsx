@@ -2,7 +2,7 @@ import React from "react";
 
 const Quote = () => {
   return (
-    <section className='bg-gray-50 px-4 py-32 md:pb-0 md:pt-80'>
+    <section className='bg-gray-50 px-4 py-36 md:pb-0 md:pt-80'>
       <div className='max-w-4xl text-green-900 mx-auto flex flex-col items-center md:items-start md:flex-row gap-6 relative'>
         <div className=' w-12 h-12 rounded-lg bg-green-950 mb-8'></div>
         <blockquote className='text-center'>

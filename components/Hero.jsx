@@ -6,7 +6,6 @@ import background from "../public/background.png";
 const Hero = () => {
   return (
     <div className='relative h-screen w-full p-4 flex justify-center items-center'>
-      <Image fill src={background} alt='Calm misty forest' />
       <div className='flex flex-col z-10 justify-center items-center h-full w-full'>
         <h1 className='text-center text-5xl lg:text-6xl font-bold text-white mb-6'>
           Psyykkinen Valmennus
@@ -32,6 +31,7 @@ const Hero = () => {
           </Link>
         </div>
       </div>
+      <Image fill src={background} className="opacity-60" alt='Calm misty forest' />
     </div>
   );
 };

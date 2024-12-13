@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function CTA() {
   return (
-    <div className=' w-full bg-gradient-to-r md:bg-none to-[#75A896] from-[#53786B] bg-slate-50 py-24 md:py-80 px-4 flex justify-center items-center'>
+    <div className=' w-full bg-gradient-to-r md:bg-none to-[#75A896] from-[#53786B] bg-slate-50 py-36 md:py-80 px-4 flex justify-center items-center'>
       <div className='flex flex-row justify-center gap-8 max-w-7xl w-full'>
         <div className=' hidden md:block w-96 h-96 rounded-xl bg-green-950'></div>
         <div className=' flex flex-col justify-center items-start'>
