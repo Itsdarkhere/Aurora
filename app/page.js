@@ -10,7 +10,7 @@ export default function Home() {
       <Nav />
       <Hero />
       <Quote />
-      <CTA />
+      <CTA additionalInfo={true} />
       <Footer />
     </div>
   );

@@ -9,7 +9,7 @@ export default function Aurora() {
     <div className="w-full flex flex-col  min-h-screen">
         <Nav />
         <Introduction />
-        <CTA />
+        <CTA additionalInfo={false} />
         <Footer />
     </div>
   );

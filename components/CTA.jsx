@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import woman_working from "../public/woman_work.jpg";
 
-export default function CTA() {
+export default function CTA({ additionalInfo }) {
   return (
     <div className=' w-full bg-slate-50 py-36 md:py-80 px-4 flex justify-center items-center'>
       <div className='flex flex-row-reverse justify-center gap-20 max-w-7xl w-full'>
@@ -31,12 +31,14 @@ export default function CTA() {
             >
               Varaa Tapaaminen
             </Link>
-            <Link
-              href='/lue-lisaa'
-              className='border min-w-64 md:min-w-0 text-center border-theme text-theme px-6 py-3 rounded-lg font-medium hover:bg-slate-100 transition-colors'
-            >
-              Lue Lisää
-            </Link>
+            {additionalInfo && (
+              <Link
+                href='/lue-lisaa'
+                className='border min-w-64 md:min-w-0 text-center border-theme text-theme px-6 py-3 rounded-lg font-medium hover:bg-slate-100 transition-colors'
+              >
+                Lue Lisää
+              </Link>
+            )}
           </div>
         </div>
       </div>

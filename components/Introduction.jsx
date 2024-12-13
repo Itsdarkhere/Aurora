@@ -46,12 +46,12 @@ const Introduction = () => {
                 width={18}
               />
             </Link>
-            <Link
+            {/* <Link
               href='/lue-lisaa'
               className='border w-full md:w-auto text-center border-white text-white px-6 py-3 rounded-lg font-medium hover:bg-white/10 transition-colors'
             >
               Lue Lisää
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>
