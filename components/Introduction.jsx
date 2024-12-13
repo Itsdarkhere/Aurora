@@ -7,7 +7,7 @@ import american_football from "../public/football.jpg";
 
 const Introduction = () => {
   return (
-    <div className='relative bg-gradient-to-r to-[#75A896] from-[#53786B] py-32 px-4 w-full overflow-hidden flex justify-center items-center'>
+    <div className='relative bg-gradient-to-r to-[#75A896] from-[#53786B] py-12 md:py-32 px-4 w-full overflow-hidden flex justify-center items-center'>
       <div className='flex flex-col md:flex-row justify-center items-center gap-12 w-full max-w-7xl'>
         <div className=' w-96 relative max-w-full overflow-hidden h-80 rounded-xl'>
           <Image
