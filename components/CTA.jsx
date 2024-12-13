@@ -6,12 +6,12 @@ export default function CTA() {
   return (
     <div className=' w-full bg-gradient-to-r md:bg-none to-[#75A896] from-[#53786B] bg-slate-50 py-36 md:py-80 px-4 flex justify-center items-center'>
       <div className='flex flex-row-reverse justify-center gap-20 max-w-7xl w-full'>
-        <div className='hidden md:block w-96 relative max-w-full overflow-hidden h-96 rounded-xl'>
+        <div className='hidden md:block w-96 relative max-w-full overflow-hidden h-80 rounded-xl'>
           <Image
             src={woman_working}
             fill
             alt='Kaksi naista työskentelee tietokoneella'
-            className="object-cover w-full h-full"
+            className="object-cover w-full h-full opacity-85"
           />
         </div>
         <div className=' flex flex-col justify-center items-start'>
