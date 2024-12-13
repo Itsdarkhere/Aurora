@@ -26,7 +26,7 @@ const Introduction = () => {
             alt='quote mark'
           />
           <span className=' text-sm text-slate-300 mb-6'>
-            Aurora Sukunimi, Koulutettu Psykologi
+            Aurora Huovinen, Koulutettu Psykologi
           </span>
           <p className=' text-xl text-slate-50 mb-12 '>
             “Tavoitteena on vahvistaa suorituskykyäsi mielenprosessien avulla ja

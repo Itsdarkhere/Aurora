@@ -1,14 +1,14 @@
 import React from "react";
 import Image from "next/image";
-import quote from "../public/quote.svg"
+import quote from "../public/quote_white.svg"
 
 const Quote = () => {
   return (
-    <section className='bg-gray-50 px-4 py-36 md:pb-0 md:pt-80'>
+    <section className='bg-gray-50 bg-gradient-to-r to-[#75A896] from-[#53786B] px-4 py-36'>
       <div className='max-w-4xl text-green-900 mx-auto flex flex-col items-center md:items-start md:flex-row gap-6 relative'>
         <Image src={quote} height={48} width={48} className="mb-6" alt="quote mark" />
         <blockquote className='text-center'>
-          <p className='text-lg lg:text-xl text-sage-700 leading-relaxed max-w-3xl mx-auto'>
+          <p className='text-lg lg:text-xl text-white leading-relaxed max-w-3xl mx-auto'>
             &quot;Tavoitteena on vahvistaa suorituskykyäsi mielenprosessien
             avulla ja auttaa löytämään tasapaino, joka tukee sekä tavoitteidesi
             saavuttamisessa että kokonaisvaltaisessa jaksamisessa.&quot;
