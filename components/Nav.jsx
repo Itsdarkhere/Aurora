@@ -7,7 +7,7 @@ const Nav = () => {
       <div className='max-w-7xl mx-auto h-16 flex items-center justify-between'>
         <Link href="/" className=" text-green-950 text-xl font-indie-flower">Psykologiaurora.fi</Link>
         {/* Left side navigation links */}
-        <div className='flex items-center space-x-8'>
+        <div className=' hidden md:flex items-center space-x-8'>
           <Link
             href='/lue-lisaa'
             className='text-gray-600 hover:text-gray-900 transition-colors'
