@@ -1,5 +1,8 @@
 import Link from "next/link";
 import React from "react";
+import quote from "../public/quote.svg"
+import Image from "next/image";
+import arrow_right from "../public/chevron-right.svg"
 
 const Introduction = () => {
   return (
@@ -7,7 +10,7 @@ const Introduction = () => {
       <div className='flex flex-col md:flex-row justify-center items-center gap-12 w-full max-w-7xl'>
         <div className=' w-96 h-96 rounded-xl bg-green-950'></div>
         <div className='flex flex-col max-w-xl'>
-          <div className=' w-12 h-12 rounded-lg bg-green-950 mb-8'></div>
+          <Image src={quote} height={48} width={48} className="mb-6" alt="quote mark" />
           <span className=' text-sm text-slate-300 mb-6'>
             Aurora Sukunimi, Koulutettu Psykologi
           </span>
@@ -17,9 +20,13 @@ const Introduction = () => {
             saavuttamisessa että kokonaisvaltaisessa jaksamisessa“
           </p>
           <div className='flex flex-col justify-center md:justify-start items-center md:flex-row gap-4'>
-            <Link href="/varaus" className='bg-white w-full md:w-auto text-center text-gray-900 px-6 py-3 rounded-lg font-medium hover:bg-gray-100 transition-colors'>
-              Varaa Tapaaminen
-            </Link>
+          <Link
+            href='/varaus'
+            className='bg-white min-w-64 flex flex-row gap-2 justify-center items-center md:min-w-0 text-center text-gray-900 px-6 py-3 rounded-lg font-medium hover:bg-gray-100 transition-colors'
+          >
+            Varaa Tapaaminen
+            <Image src={arrow_right} alt="arrow to the right" height={18} width={18} />
+          </Link>
             <Link href="/lue-lisaa" className='border w-full md:w-auto text-center border-white text-white px-6 py-3 rounded-lg font-medium hover:bg-white/10 transition-colors'>
               Lue Lisää
             </Link>
