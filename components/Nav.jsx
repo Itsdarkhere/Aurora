@@ -68,9 +68,9 @@ function MobileNav() {
         ref={dialogRef}
         className='backdrop:bg-black/50 inset-inline-end fixed m-0 w-64 right-4 left-auto top-16 p-4 rounded-lg shadow-lg border border-gray-200'
         onClick={handleClickOutside}
-        autofocus="false"
-        inert="true"
-        data-focus-trap="false"
+        autoFocus={false}
+        inert={true}
+        data-focus-trap={false}
       >
         <div className='flex flex-col space-y-4'>
           <Link
