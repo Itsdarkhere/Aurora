@@ -1,12 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import background from "../public/background.png";
+import background from "../public/background-2.png";
 import mobile_bg from "../public/mobile_bg.jpg";
 
 const Hero = () => {
   return (
-    <div className='relative h-screen w-full p-4 flex justify-center items-center'>
+    <div className='relative bg-black h-screen w-full p-4 flex justify-center items-center'>
       <div className='flex flex-col z-10 justify-center items-center h-full w-full'>
         <h1 className='text-center text-5xl lg:text-6xl font-bold text-white mb-6'>
           Psyykkinen Valmennus
