@@ -12,16 +12,16 @@ const Nav = () => {
         </Link>
 
         {/* Desktop navigation */}
-        <div className='hidden md:flex items-center space-x-8'>
+        <div className='hidden md:flex items-center space-x-6'>
           <Link
             href='/lue-lisaa'
-            className='text-gray-600 hover:text-gray-900 transition-colors'
+            className='text-gray-600 text-sm hover:text-gray-900 transition-colors'
           >
             Lue lisää
           </Link>
           <Link
             href='/varaus'
-            className='bg-green-800 text-white px-4 py-2 rounded-md hover:bg-green-700 transition-colors'
+            className='bg-green-800 text-sm font-medium text-white px-4 py-2 rounded-md hover:bg-green-700 transition-colors'
           >
             Varaa tapaaminen
           </Link>

@@ -11,7 +11,7 @@ const Footer = () => {
         </p>
         <Link
           href='/varaus'
-          className='bg-white text-center text-gray-900 px-4 py-2 rounded-lg font-medium hover:bg-gray-100 transition-colors'
+          className='bg-white text-center text-sm font-medium text-gray-900 px-4 py-2 rounded-lg hover:bg-gray-100 transition-colors'
         >
           Varaus
         </Link>
