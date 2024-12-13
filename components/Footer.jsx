@@ -42,15 +42,15 @@ const Footer = () => {
           </p>
         </div>
         <div className='flex flex-col md:flex-row gap-4'>
-          <div className=' w-10 h-10 text-white flex justify-center items-center rounded-lg bg-white bg-opacity-10'>
+          <Link href="https://linkedin.com" target="_blank" className=' w-10 h-10 text-white flex justify-center items-center rounded-lg bg-white bg-opacity-10'>
             <Instagram size={24} />
-          </div>
-          <div className=' w-10 h-10 text-white flex justify-center items-center rounded-lg bg-white bg-opacity-10'>
+          </Link>
+          <Link href="https://linkedin.com" target="_blank" className=' w-10 h-10 text-white flex justify-center items-center rounded-lg bg-white bg-opacity-10'>
             <Twitter size={24} />
-          </div>
-          <div className=' w-10 h-10 text-white flex justify-center items-center rounded-lg bg-white bg-opacity-10'>
+          </Link>
+          <Link href="https://linkedin.com" target="_blank" className=' w-10 h-10 text-white flex justify-center items-center rounded-lg bg-white bg-opacity-10'>
             <Linkedin size={24} />
-          </div>
+          </Link>
         </div>
       </div>
     </footer>
