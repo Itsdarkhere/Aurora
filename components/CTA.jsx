@@ -5,7 +5,7 @@ import woman_working from "../public/woman_work.jpg"
 export default function CTA() {
   return (
     <div className=' w-full bg-gradient-to-r md:bg-none to-[#75A896] from-[#53786B] bg-slate-50 py-36 md:py-80 px-4 flex justify-center items-center'>
-      <div className='flex flex-row-reverse justify-center gap-8 max-w-7xl w-full'>
+      <div className='flex flex-row-reverse justify-center gap-20 max-w-7xl w-full'>
         <div className='hidden md:block w-96 relative max-w-full overflow-hidden h-96 rounded-xl'>
           <Image
             src={woman_working}
@@ -18,7 +18,7 @@ export default function CTA() {
           <h3 className=' text-4xl font-bold text-white md:text-green-950 mb-4'>
             Kehitä itseäsi ammattilaisena
           </h3>
-          <p className=' leading-6 text-lg max-w-2xl text-slate-200 md:text-green-900  mb-12'>
+          <p className=' leading-6 text-lg max-w-xl text-slate-200 md:text-green-900  mb-12'>
             Psyykkinen valmennuksen avulla voit saada apua monenlaisiin
             haasteisiin ja voimme työskennellä tapaamisilla muun muassa stressin
             hallinnan ja paineensiedon, vireystilan säätelyn, motivaation,
