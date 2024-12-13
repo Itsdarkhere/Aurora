@@ -8,7 +8,7 @@ const Introduction = () => {
   return (
     <div className='relative bg-gradient-to-r to-[#75A896] from-[#53786B] py-20 px-4 w-full overflow-hidden flex justify-center items-center'>
       <div className='flex flex-col md:flex-row justify-center items-center gap-12 w-full max-w-7xl'>
-        <div className=' w-96 h-96 rounded-xl bg-green-950'></div>
+        <div className=' w-96 max-w-full h-96 rounded-xl bg-green-950'></div>
         <div className='flex flex-col max-w-xl'>
           <Image src={quote} height={48} width={48} className="mb-6" alt="quote mark" />
           <span className=' text-sm text-slate-300 mb-6'>
