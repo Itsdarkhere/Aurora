@@ -1,5 +1,4 @@
 import "./globals.css";
-import Footer from "@/components/Footer";
 import Nav from "@/components/Nav";
 import { Poppins, Indie_Flower } from "next/font/google";
 
@@ -26,6 +25,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang='en'>
       <body className={`${poppins.className} ${indieFlower.variable} antialiased`}>
+        <Nav />
         {children}
       </body>
     </html>
