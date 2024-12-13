@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import { Instagram, Twitter, Linkedin } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -10,7 +11,7 @@ const Footer = () => {
           href='/varaus'
           className='bg-white text-center text-gray-900 px-4 py-2 rounded-lg font-medium hover:bg-gray-100 transition-colors'
         >
-          Varaa Tapaaminen
+          Varaus
         </Link>
       </div>
       <div className=' w-full max-w-7xl flex flex-row gap-4 justify-between pt-6'>
@@ -25,9 +26,15 @@ const Footer = () => {
           <p className=" font-light text-sm text-white text-opacity-60">help@logoipsum.com</p>
         </div>
         <div className='flex flex-col md:flex-row gap-4'>
-          <div className=' w-10 h-10 rounded-lg bg-white bg-opacity-10'></div>
-          <div className=' w-10 h-10 rounded-lg bg-white bg-opacity-10'></div>
-          <div className=' w-10 h-10 rounded-lg bg-white bg-opacity-10'></div>
+          <div className=' w-10 h-10 flex justify-center items-center rounded-lg bg-white bg-opacity-10'>
+            <Instagram size={24} />
+          </div>
+          <div className=' w-10 h-10 flex justify-center items-center rounded-lg bg-white bg-opacity-10'>
+          <Twitter size={24} />
+          </div>
+          <div className=' w-10 h-10 flex justify-center items-center rounded-lg bg-white bg-opacity-10'>
+          <Linkedin size={24} />
+          </div>
         </div>
       </div>
     </footer>
