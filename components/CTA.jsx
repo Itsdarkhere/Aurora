@@ -5,12 +5,12 @@ import woman_working from "../public/woman_work.jpg"
 export default function CTA() {
   return (
     <div className=' w-full bg-gradient-to-r md:bg-none to-[#75A896] from-[#53786B] bg-slate-50 py-36 md:py-80 px-4 flex justify-center items-center'>
-      <div className='flex flex-row justify-center gap-8 max-w-7xl w-full'>
+      <div className='flex flex-row-reverse justify-center gap-8 max-w-7xl w-full'>
         <div className='hidden md:block w-96 relative max-w-full overflow-hidden h-96 rounded-xl'>
           <Image
             src={woman_working}
             fill
-            alt='Nainen työskentelee tietokoneella'
+            alt='Kaksi naista työskentelee tietokoneella'
             className="object-cover w-full h-full"
           />
         </div>
