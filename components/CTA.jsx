@@ -1,10 +1,19 @@
+import Image from "next/image";
 import Link from "next/link";
+import woman_working from "../public/woman_work.jpg"
 
 export default function CTA() {
   return (
     <div className=' w-full bg-gradient-to-r md:bg-none to-[#75A896] from-[#53786B] bg-slate-50 py-36 md:py-80 px-4 flex justify-center items-center'>
       <div className='flex flex-row justify-center gap-8 max-w-7xl w-full'>
-        <div className=' hidden md:block w-96 h-96 rounded-xl bg-green-950'></div>
+        <div className='hidden md:block w-96 relative max-w-full overflow-hidden h-96 rounded-xl'>
+          <Image
+            src={woman_working}
+            fill
+            alt='Nainen työskentelee tietokoneella'
+            className="object-cover w-full h-full"
+          />
+        </div>
         <div className=' flex flex-col justify-center items-start'>
           <h3 className=' text-4xl font-bold text-white md:text-green-950 mb-4'>
             Kehitä itseäsi ammattilaisena
