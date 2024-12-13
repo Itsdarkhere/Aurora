@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import background from "../public/background.png";
+import mobile_bg from "../public/mobile_bg.jpg";
 
 const Hero = () => {
   return (
@@ -31,7 +32,23 @@ const Hero = () => {
           </Link>
         </div>
       </div>
-      <Image fill src={background} className="opacity-60" alt='Calm misty forest' />
+      {/* Desktop background */}
+      <Image 
+        fill 
+        src={background} 
+        className="hidden md:block opacity-60" 
+        alt='Calm misty forest'
+        priority
+      />
+      
+      {/* Mobile background */}
+      <Image 
+        fill 
+        src={mobile_bg} 
+        className="block md:hidden opacity-60" 
+        alt='Calm misty forest - mobile view'
+        priority
+      />
     </div>
   );
 };
