@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function CTA() {
   return (
-    <div className=' w-full bg-slate-50 md:py-44 md:px-4 flex justify-center items-center'>
+    <div className=' w-full bg-slate-50 md:py-80 md:px-4 flex justify-center items-center'>
       <div className='flex flex-row justify-center gap-8 max-w-7xl w-full'>
       <div className=' w-96 h-96 rounded-xl bg-green-950'></div>
         <div className=' flex flex-col justify-center items-start'>
@@ -30,7 +30,6 @@ export default function CTA() {
             </Link>
           </div>
         </div>
-      
       </div>
     </div>
   );
