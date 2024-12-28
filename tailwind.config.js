@@ -10,7 +10,8 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        theme: "var(--theme)"
+        theme: "var(--theme)",
+        lightbg: "var(--lightbg)"
       },
       fontFamily: {
         "indie-flower": "var(--font-indie)",

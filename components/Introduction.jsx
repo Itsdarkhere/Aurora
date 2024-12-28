@@ -22,11 +22,11 @@ const Introduction = () => {
             src={quote}
             height={48}
             width={48}
-            className='mb-6'
+            className='mb-10'
             alt='quote mark'
           />
-          <span className=' text-sm text-slate-300 mb-6'>
-            Aurora Huovinen, Koulutettu Psykologi
+          <span className=' text-sm text-slate-300 mb-4'>
+          Aurora Huovinen, psykologi (PsM), psyykkinen valmentaja
           </span>
           <p className=' text-xl text-slate-50 mb-12 '>
             “Tavoitteena on vahvistaa suorituskykyäsi mielenprosessien avulla ja

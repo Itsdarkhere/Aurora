@@ -1,12 +1,12 @@
-import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
 import Introduction from "@/components/Introduction";
+import Quote from "@/components/Quote";
 
 export default function Aurora() {
   return (
-    <div className='w-full flex flex-col  min-h-screen'>
+    <div className='w-full flex flex-col'>
       <Introduction />
-      <CTA additionalInfo={false} />
+      <Quote />
       <Footer />
     </div>
   );
