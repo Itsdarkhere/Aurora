@@ -21,7 +21,7 @@ const Hero = () => {
         <div className='flex flex-col justify-center md:justify-start items-center md:flex-row gap-4'>
           <Link
             href='/varaus'
-            className='bg-white min-w-64 flex flex-row gap-2 justify-center items-center md:min-w-0 text-center text-gray-900 px-6 py-3 rounded-lg font-medium hover:bg-gray-100 transition-colors'
+            className='bg-white min-w-64 flex flex-row gap-2 justify-center items-center md:min-w-0 text-center text-[#214D3E] px-6 py-3 rounded-lg font-medium hover:bg-gray-100 transition-colors'
           >
             Varaa Tapaaminen
             <Image src={arrow_right} alt="arrow to the right" height={18} width={18} />
