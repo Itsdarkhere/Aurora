@@ -2,7 +2,7 @@
 export default function Pricing() {
   return (
     <div className=' w-full bg-lightbg py-36 md:py-56 px-4 flex justify-center items-center'>
-      <div className='flex flex-col justify-center items-center gap-20 max-w-7xl w-full'>
+      <div className='flex flex-col justify-center items-center gap-12 max-w-7xl w-full'>
         <div className="flex flex-col gap-4 justify-center items-center text-center">
             <h4 className=" text-theme font-bold text-4xl md:text-5xl">Hinnasto</h4>
             <p className=" text-theme text-lg md:text-xl">Hyödynnä alennus suuremmista ostoksista!</p>
