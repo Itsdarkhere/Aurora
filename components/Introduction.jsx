@@ -18,23 +18,22 @@ const Introduction = () => {
           />
         </div>
         <div className='flex flex-col max-w-xl'>
-          <Image
-            src={quote}
-            height={48}
-            width={48}
-            className='mb-10'
-            alt='quote mark'
-          />
-          <span className=' text-sm text-slate-300 mb-4'>
-          Aurora Huovinen, psykologi (PsM), psyykkinen valmentaja
-          </span>
-          <p className=' text-xl text-slate-50 mb-12 '>
-            “Tavoitteena on vahvistaa suorituskykyäsi mielenprosessien avulla ja
-            auttaa löytämään tasapaino, joka tukee sekä tavoitteidesi
-            saavuttamisessa että kokonaisvaltaisessa jaksamisessa“
+          <div className="flex flex-row items-center gap-4 mb-6">
+            <Image
+              src={quote}
+              height={48}
+              width={48}
+              alt='quote mark'
+            />
+            <span className=' text-sm text-slate-300'>
+            Aurora Huovinen,<br/> psykologi (PsM), psyykkinen valmentaja
+            </span>
+          </div>
+          <p className=' text-xl text-slate-50'>
+            “Psyykkisenä valmentajana autan urheilijoita ja liiketoiminnan ammattilaisia kehittämään suorituskykyään, vahvistamaan hyvinvointiaan ja saavuttamaan tavoitteensa. Valmennuksessa keskitymme yksilöllisiin tarpeisiisi, tunnistamme voimavarasi ja luomme käytännönläheisiä keinoja, joiden avulla voit suoriutua paremmin paineen alla ja edetä kohti tavoitteitasi. Tavoitteeni on auttaa sinua saavuttamaan kestävää menestystä ja mielen tasapainoa.“
           </p>
           <div className='flex flex-col justify-center md:justify-start items-center md:flex-row gap-4'>
-            <Link
+            {/* <Link
               href='/varaus'
               className='bg-white w-full md:w-auto flex flex-row gap-2 justify-center items-center md:min-w-0 text-center text-gray-900 px-6 py-3 rounded-lg font-medium hover:bg-gray-100 transition-colors'
             >
@@ -45,7 +44,7 @@ const Introduction = () => {
                 height={18}
                 width={18}
               />
-            </Link>
+            </Link> */}
             {/* <Link
               href='/lue-lisaa'
               className='border w-full md:w-auto text-center border-white text-white px-6 py-3 rounded-lg font-medium hover:bg-white/10 transition-colors'

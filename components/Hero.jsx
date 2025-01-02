@@ -37,7 +37,7 @@ const Hero = () => {
       {/* Desktop background */}
       <Image 
         fill 
-        src={background} 
+        src={mobile_bg} 
         className="hidden md:block opacity-60" 
         alt='Calm misty forest'
         priority
