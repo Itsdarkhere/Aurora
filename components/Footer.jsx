@@ -20,7 +20,7 @@ const Footer = () => {
         <div className='flex flex-col'>
           <h5 className='mb-5 font-medium text-sm text-white'>Linkit</h5>
           <Link
-            href='/lue-lisaa'
+            href='/tietoa-minusta'
             className=' font-light text-sm text-white text-opacity-60 mb-[6px]'
           >
             Aurora

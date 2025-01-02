@@ -46,7 +46,7 @@ const Introduction = () => {
               />
             </Link> */}
             {/* <Link
-              href='/lue-lisaa'
+              href='/tietoa-minusta'
               className='border w-full md:w-auto text-center border-white text-white px-6 py-3 rounded-lg font-medium hover:bg-white/10 transition-colors'
             >
               tietoa minusta

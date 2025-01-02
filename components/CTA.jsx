@@ -24,7 +24,7 @@ export default function CTA({ additionalInfo }) {
           </Link>
           {additionalInfo && (
             <Link
-              href='/lue-lisaa'
+              href='/tietoa-minusta'
               className='border min-w-64 text-center border-white text-lg text-white px-6 py-3 rounded-lg font-semibold'
             >
               Tietoa minusta

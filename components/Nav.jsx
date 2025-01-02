@@ -14,7 +14,7 @@ const Nav = () => {
         {/* Desktop navigation */}
         <div className='hidden md:flex items-center space-x-6'>
           <Link
-            href='/lue-lisaa'
+            href='/tietoa-minusta'
             className='text-gray-600 text-sm hover:text-gray-900 transition-colors'
           >
             Tietoa minusta
@@ -71,7 +71,7 @@ function MobileNav() {
       >
         <div className='flex flex-col space-y-4'>
           <Link
-            href='/lue-lisaa'
+            href='/tietoa-minusta'
             className='text-gray-600 hover:text-gray-900 transition-colors px-4 py-2'
             onClick={handleClose}
           >
