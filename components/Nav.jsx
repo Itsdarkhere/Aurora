@@ -5,7 +5,7 @@ import { Menu } from "lucide-react";
 
 const Nav = () => {
   return (
-    <nav className='w-full border-b px-4 border-gray-200 bg-white'>
+    <nav className='w-full z-10 sticky top-0 left-0 right-0 border-b px-4 border-gray-200 bg-white'>
       <div className='max-w-7xl mx-auto h-16 flex items-center justify-between'>
         <Link href='/' className='text-green-950 text-xl font-indie-flower'>
           Psykologiaurora.fi
