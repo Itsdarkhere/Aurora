@@ -29,7 +29,7 @@ const Introduction = () => {
             Aurora Huovinen,<br/> psykologi (PsM), psyykkinen valmentaja
             </span>
           </div>
-          <p className=' text-lg lg:text-xl text-slate-50'>
+          <p className=' text-base lg:text-xl text-slate-50'>
             “Psyykkisenä valmentajana autan urheilijoita ja liiketoiminnan ammattilaisia kehittämään suorituskykyään, vahvistamaan hyvinvointiaan ja saavuttamaan tavoitteensa. Valmennuksessa keskitymme yksilöllisiin tarpeisiisi, tunnistamme voimavarasi ja luomme käytännönläheisiä keinoja, joiden avulla voit suoriutua paremmin paineen alla ja edetä kohti tavoitteitasi. Tavoitteeni on auttaa sinua saavuttamaan kestävää menestystä ja mielen tasapainoa.“
           </p>
           <div className='flex flex-col justify-center md:justify-start items-center md:flex-row gap-4'>
