@@ -30,7 +30,7 @@ const Hero = () => {
             href='/lue-lisaa'
             className='border min-w-64 md:min-w-0 text-center border-white text-white px-6 py-3 rounded-lg font-medium hover:bg-white/10 transition-colors'
           >
-            Lue Lisää
+            Tietoa minusta
           </Link>
         </div>
       </div>

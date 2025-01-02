@@ -17,7 +17,7 @@ const Nav = () => {
             href='/lue-lisaa'
             className='text-gray-600 text-sm hover:text-gray-900 transition-colors'
           >
-            Lue lisää
+            Tietoa minusta
           </Link>
           <Link
             href='/varaus'
@@ -75,7 +75,7 @@ function MobileNav() {
             className='text-gray-600 hover:text-gray-900 transition-colors px-4 py-2'
             onClick={handleClose}
           >
-            Lue lisää
+            Tietoa minusta
           </Link>
           <Link
             href='/varaus'

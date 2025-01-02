@@ -27,7 +27,7 @@ export default function CTA({ additionalInfo }) {
               href='/lue-lisaa'
               className='border min-w-64 text-center border-white text-lg text-white px-6 py-3 rounded-lg font-semibold'
             >
-              Lue Lisää
+              Tietoa minusta
             </Link>
           )}
         </div>
