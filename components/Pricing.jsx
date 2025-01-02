@@ -22,10 +22,10 @@ function Price({ textOne, textTwo, badgeText}) {
 
     return (
         <div className="flex flex-col w-full max-w-80 justify-start gap-2 items-center bg-theme rounded-2xl py-8 px-6">
-            <p className=" text-2xl">{textOne}</p>
+            <p className=" text-[#DDEAE6] text-2xl">{textOne}</p>
             <div className="flex flex-row gap-2 items-center">
-                <h6 className=" font-bold text-5xl">{textTwo}</h6>
-                {badgeText && <div className=" bg-[#63B599] rounded-2xl px-4 text-xl font-bold">{badgeText}</div>}
+                <h6 className=" text-white font-bold text-5xl">{textTwo}</h6>
+                {badgeText && <div className=" bg-[#63B599] text-white rounded-2xl px-4 text-xl font-bold">{badgeText}</div>}
             </div>
         </div>
     )
