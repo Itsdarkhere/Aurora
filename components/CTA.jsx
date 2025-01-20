@@ -4,7 +4,7 @@ import american_football from "../public/football.jpg";
 export default function CTA() {
   return (
     <div className=' w-full bg-[#628C7E] lg:bg-[#F8F8F8] lg:py-40 px-6 flex justify-center items-center'>
-      <div className='flex max-w-[500px] lg:max-w-6xl lg:shadow-sm bg-[#628C7E] overflow-hidden lg:rounded-xl flex-row justify-between w-full'>
+      <div className='flex max-w-[500px] lg:max-w-6xl lg:shadow-sm bg-[#628C7E] lg:overflow-hidden lg:rounded-xl flex-row justify-between w-full'>
         <div className='flex py-12 lg:px-8 flex-col items-center gap-10 w-full lg:w-1/3'>
           <h4 className='text-3xl text-neutral-100 font-bold'>Ota yhteyttä</h4>
 
