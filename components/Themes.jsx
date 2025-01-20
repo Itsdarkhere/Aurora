@@ -5,7 +5,7 @@ export default function Themes() {
   return (
     <div className='bg-[#F8F8F8] w-full py-32 px-6 flex justify-center items-center '>
       <div className=' w-full max-w-7xl flex gap-12 flex-col items-center'>
-        <h4 className=' text-theme font-bold text-3xl'>Valmennuksen teemat</h4>
+        <h4 className=' text-theme font-bold text-center text-3xl'>Valmennuksen teemat</h4>
         <div className='w-full flex flex-col lg:flex-row gap-6 items-center'>
           <Theme
             title={"Suorituskyvyn kehittäminen"}
