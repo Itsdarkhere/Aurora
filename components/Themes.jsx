@@ -6,7 +6,7 @@ export default function Themes() {
     <div className='bg-[#F8F8F8] w-full py-32 px-6 flex justify-center items-center '>
       <div className=' w-full max-w-7xl flex gap-12 flex-col items-center'>
         <h4 className=' text-theme font-bold text-center text-3xl'>Valmennuksen teemat</h4>
-        <div className='w-full flex flex-col lg:flex-row gap-6 items-center'>
+        <div className='w-full flex flex-wrap lg:flex-row justify-center gap-6 items-center'>
           <Theme
             title={"Suorituskyvyn kehittäminen"}
             paragraph={
@@ -33,7 +33,7 @@ export default function Themes() {
 
 function Theme({ title, paragraph }) {
   return (
-    <div className='flex flex-col relative overflow-hidden shadow-sm rounded-xl flex-1 max-w-[435px]'>
+    <div className='flex flex-col relative overflow-hidden shadow-sm rounded-xl flex-1 min-w-[335px] max-w-[435px]'>
       <div className="w-full relative h-48">
         <Image
           src={american_football}
