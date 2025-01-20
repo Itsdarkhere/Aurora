@@ -33,7 +33,7 @@ export default function Themes() {
 
 function Theme({ title, paragraph }) {
   return (
-    <div className='flex flex-col relative overflow-hidden rounded-xl flex-1 max-w-[435px]'>
+    <div className='flex flex-col relative overflow-hidden shadow-sm rounded-xl flex-1 max-w-[435px]'>
       <div className="w-full relative h-48">
         <Image
           src={american_football}
