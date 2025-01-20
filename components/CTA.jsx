@@ -32,14 +32,37 @@ export default function CTA() {
                 placeholder='Kirjoita viestisi tähän...'
               />
             </div>
-            <button className=" mt-2 rounded py-3 px-6 w-full bg-neutral-900 text-white">Lähetä viesti</button>
+            <button
+              className=' mt-2 
+        rounded 
+        py-3 
+        px-6 
+        w-full 
+        font-medium 
+        bg-neutral-900 
+        text-white
+        transition-all
+        duration-200
+        
+        /* Hover state */
+        hover:bg-neutral-800
+        
+        /* Focus state */
+        focus:outline-none
+        focus:ring-2
+        focus:ring-neutral-900
+        focus:ring-offset-2
+        '
+            >
+              Lähetä viesti
+            </button>
           </div>
         </div>
         <div className='relative min-h-[500px] hidden lg:block overflow-hidden h-full flex-1'>
           <Image
             src={american_football}
             fill
-            className="object-cover"
+            className='object-cover'
             alt='Mies heittää amerikkalaista jalkapalloa'
           />
         </div>
