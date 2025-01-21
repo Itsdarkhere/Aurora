@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import mobile_bg from "../public/herobgg.png";
+import mobile_bg from "../public/herobg.png";
 
 const Hero = () => {
   return (
