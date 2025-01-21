@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import mobile_bg from "../public/hero1.png";
+import mobile_bg from "../public/herobgg.png";
 
 const Hero = () => {
   return (
@@ -18,7 +18,8 @@ const Hero = () => {
       <Image 
         fill 
         src={mobile_bg} 
-        className="block object-cover" 
+        quality={100}
+        className=" object-cover" 
         alt='Calm misty forest'
         priority
       />
