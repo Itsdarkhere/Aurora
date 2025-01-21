@@ -46,7 +46,7 @@ function Price({ textOne, textTwo, badgeText }) {
 
 function PriceTwo({ textOne, textTwo, badgeText }) {
   return (
-    <div className='flex flex-row w-full bg-[#628C7E] md:max-w-[886px] justify-between items-center px-6 md:px-12 py-8 rounded-xl'>
+    <div className='flex flex-row w-full shadow-xl bg-[#628C7E] md:max-w-[886px] justify-between items-center px-6 md:px-12 py-8 rounded-xl'>
       <div>
         <p className=' text-[#F2F2F2] font-semibold text-2xl md:text-3xl'>{textOne}</p>
         {badgeText && <p className=" text-[#D5E2DD] font-medium">{badgeText}</p>}

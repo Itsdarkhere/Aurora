@@ -1,5 +1,7 @@
 import Image from "next/image";
 import american_football from "../public/football.jpg";
+import something from "../public/balance.png";
+import somethingtwo from "../public/goals.png";
 
 export default function Themes() {
   return (
@@ -12,18 +14,21 @@ export default function Themes() {
             paragraph={
               "Paineensietokyky, keskittyminen, motivaatio ja itseluottamus kilpailutilanteissa."
             }
+            img={american_football}
           />
           <Theme
             title={"Mielen tasapaino"}
             paragraph={
               "Stressinhallinta, palautuminen ja kokonaisvaltainen hyvinvointi."
             }
+            img={something}
           />
           <Theme
             title={"Tavoitteiden saavuttaminen"}
             paragraph={
               "Menestyksen esteiden tunnistaminen ja konkreettiset työkalut etenemiseen."
             }
+            img={somethingtwo}
           />
         </div>
       </div>
@@ -31,15 +36,15 @@ export default function Themes() {
   );
 }
 
-function Theme({ title, paragraph }) {
+function Theme({ title, paragraph, img }) {
   return (
-    <div className='flex flex-col relative overflow-hidden shadow-sm rounded-xl flex-1 min-w-[335px] max-w-[435px]'>
+    <div className='flex flex-col relative overflow-hidden shadow-md rounded-xl flex-1 min-w-[335px] max-w-[435px]'>
       <div className="w-full relative h-48">
         <Image
-          src={american_football}
+          src={img}
           fill
           alt='Mies heittää amerikkalaista jalkapalloa'
-          className='object-cover w-full h-full opacity-80'
+          className='object-cover w-full h-full'
         />
       </div>
       <div className='flex flex-col gap-4 text-center p-6 w-full bg-white items-center'>
