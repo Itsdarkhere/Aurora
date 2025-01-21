@@ -4,7 +4,7 @@ import { MessageSquare } from 'lucide-react';
 
 export default function CTA() {
   return (
-    <div className=' w-full bg-[#F8F8F8] lg:py-40 px-4 flex justify-center items-center'>
+    <div className=' w-full bg-[#F8F8F8] pb-6 lg:py-40 px-4 flex justify-center items-center'>
        <div className="max-w-lg mx-auto">
       <div className="bg-theme px-4 py-8 md:p-8 rounded-t-2xl">
         <div className="flex items-center justify-center space-x-3 mb-4">
