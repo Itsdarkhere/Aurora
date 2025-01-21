@@ -32,7 +32,7 @@ export default function CTA() {
                 // value={email}
                 // onChange={(e) => setEmail(e.target.value)}
                 className='w-full px-4 py-3 text-neutral-700 bg-gray-50 border border-gray-200 rounded-lg'
-                placeholder='your@email.com'
+                placeholder='esimerkki@sähköposti.com'
                 required
               />
             </div>
@@ -50,7 +50,7 @@ export default function CTA() {
                 // onChange={(e) => setMessage(e.target.value)}
                 rows={4}
                 className='w-full px-4 py-3 text-neutral-700 bg-gray-50 border border-gray-200 rounded-lg'
-                placeholder='Tell us how we can help...'
+                placeholder='Viesti...'
                 required
               />
             </div>
