@@ -1,72 +1,62 @@
-import Image from "next/image";
-import american_football from "../public/football.jpg";
+// import Image from "next/image";
+// import american_football from "../public/football.jpg";
+import { MessageSquare } from 'lucide-react';
 
 export default function CTA() {
   return (
-    <div className=' w-full bg-[#628C7E] lg:bg-[#F8F8F8] lg:py-40 px-6 flex justify-center items-center'>
-      <div className='flex max-w-[500px] lg:max-w-6xl lg:shadow-sm bg-[#628C7E] lg:overflow-hidden lg:rounded-xl flex-row justify-between w-full'>
-        <div className='flex py-12 lg:px-8 flex-col items-center gap-10 w-full lg:w-1/3'>
-          <h4 className='text-3xl text-neutral-100 font-bold'>Ota yhteyttä</h4>
-
-          <div className='flex w-full flex-col gap-6'>
-            <div className='flex flex-col space-y-2'>
-              <label htmlFor='email' className='text-neutral-100'>
-                Sähköposti
-              </label>
-              <input
-                type='email'
-                id='email'
-                className='px-4 py-2 border text-neutral-700 border-gray-300 rounded focus:ring-2 focus:ring-offset-2 focus:ring-neutral-700 focus:border-transparent outline-none'
-                placeholder='email@example.com'
-              />
-            </div>
-
-            <div className='flex flex-col space-y-2'>
-              <label htmlFor='message' className='text-neutral-100'>
-                Viesti
-              </label>
-              <textarea
-                id='message'
-                rows={4}
-                className='px-4 py-2 border text-neutral-700 border-gray-300 rounded focus:ring-2 focus:ring-offset-2 focus:ring-neutral-700 focus:border-transparent outline-none resize-none'
-                placeholder='Kirjoita viestisi tähän...'
-              />
-            </div>
-            <button
-              className=' mt-2 
-        rounded 
-        py-3 
-        px-6 
-        w-full 
-        font-medium 
-        bg-neutral-900 
-        text-white
-        transition-all
-        duration-200
-        
-        /* Hover state */
-        hover:bg-neutral-800
-        
-        /* Focus state */
-        focus:outline-none
-        focus:ring-2
-        focus:ring-neutral-900
-        focus:ring-offset-2
-        '
-            >
-              Lähetä viesti
-            </button>
-          </div>
+    <div className=' w-full bg-[#F8F8F8] lg:py-40 px-6 flex justify-center items-center'>
+       <div className="max-w-lg mx-auto">
+      <div className="bg-theme p-8 rounded-t-2xl">
+        <div className="flex items-center justify-center space-x-3 mb-4">
+          <MessageSquare className="w-8 h-8 text-white" />
+          <h2 className="text-3xl font-bold text-white">Ota yhteyttä</h2>
         </div>
-        <div className='relative min-h-[500px] hidden lg:block overflow-hidden h-full flex-1'>
-          <Image
-            src={american_football}
-            fill
-            className='object-cover'
-            alt='Mies heittää amerikkalaista jalkapalloa'
-          />
-        </div>
+        <p className="text-center text-white/90">
+          Jos jokin vielä mietityttää tai haluat kysyä lisää valmennuksesta, ota rohkeasti yhteyttä.
+        </p>
       </div>
+      
+      <div className="bg-white p-8 rounded-b-2xl shadow-xl">
+        <form className="space-y-6">
+          <div>
+            <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
+              Sähköposti
+            </label>
+            <input
+              type="email"
+              id="email"
+              // value={email}
+              // onChange={(e) => setEmail(e.target.value)}
+              className="w-full px-4 py-3 text-neutral-700 bg-gray-50 border border-gray-200 rounded-lg"
+              placeholder="your@email.com"
+              required
+            />
+          </div>
+          
+          <div>
+            <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
+              Viesti
+            </label>
+            <textarea
+              id="message"
+              // value={message}
+              // onChange={(e) => setMessage(e.target.value)}
+              rows={4}
+              className="w-full px-4 py-3 text-neutral-700 bg-gray-50 border border-gray-200 rounded-lg"
+              placeholder="Tell us how we can help..."
+              required
+            />
+          </div>
+          
+          <button
+            type="submit"
+            className="w-full py-4 px-6 bg-theme text-white font-medium rounded-lg"
+          >
+            Send Message
+          </button>
+        </form>
+      </div>
+    </div>
     </div>
   );
 }
