@@ -4,9 +4,9 @@ import { MessageSquare } from 'lucide-react';
 
 export default function CTA() {
   return (
-    <div className=' w-full bg-[#F8F8F8] lg:py-40 px-6 flex justify-center items-center'>
+    <div className=' w-full bg-[#F8F8F8] lg:py-40 px-4 flex justify-center items-center'>
        <div className="max-w-lg mx-auto">
-      <div className="bg-theme p-8 rounded-t-2xl">
+      <div className="bg-theme px-4 py-8 md:p-8 rounded-t-2xl">
         <div className="flex items-center justify-center space-x-3 mb-4">
           <MessageSquare className="w-8 h-8 text-white" />
           <h2 className="text-3xl font-bold text-white">Ota yhteyttä</h2>
@@ -16,7 +16,7 @@ export default function CTA() {
         </p>
       </div>
       
-      <div className="bg-white p-8 rounded-b-2xl shadow-xl">
+      <div className="bg-white px-4 py-8 md:p-8 rounded-b-2xl shadow-xl">
         <form className="space-y-6">
           <div>
             <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
