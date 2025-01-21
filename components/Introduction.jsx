@@ -6,12 +6,12 @@ const Introduction = () => {
   return (
     <div className='relative bg-[#F8F8F8] py-12 md:py-32 px-4 w-full overflow-hidden flex justify-center items-center'>
       <div className='flex flex-col md:flex-row justify-center items-center gap-12 w-full max-w-7xl'>
-        <div className=' w-full min-w-60 min-w-80 md:w-1/2 relative max-w-full overflow-hidden h-80 rounded-xl'>
+        <div className=' w-full shadow-md min-w-80 md:w-1/2 relative max-w-full overflow-hidden h-80 rounded-xl'>
           <Image
             src={american_football}
             fill
             alt='Mies heittää amerikkalaista jalkapalloa'
-            className='object-cover w-full h-full opacity-80'
+            className='object-cover w-full h-full'
           />
         </div>
         <div className='flex flex-col max-w-xl gap-8'>

@@ -4,7 +4,7 @@ import mobile_bg from "../public/herobg.png";
 
 const Hero = () => {
   return (
-    <div className='relative bg-black w-full py-72 p-4 flex justify-center items-center'>
+    <div className='relative bg-black w-full py-60 p-4 flex justify-center items-center'>
       <div className='flex flex-col z-10 md:pb-12 justify-center items-center h-full w-full'>
         <h1 className='text-center text-5xl lg:text-6xl font-bold text-white mb-6'>
           Psyykkinen Valmennus

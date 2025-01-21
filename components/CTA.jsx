@@ -8,7 +8,7 @@ export default function CTA() {
       <div className='max-w-lg mx-auto'>
         <div className='bg-theme px-4 py-8 md:p-8 rounded-t-2xl'>
           <div className='flex items-center justify-center space-x-3 mb-4'>
-            <MessageSquare className='w-8 h-8 text-white' />
+            {/* <MessageSquare className='w-8 h-8 text-white' /> */}
             <h2 className='text-3xl font-bold text-white'>Ota yhteyttä</h2>
           </div>
           <p className='text-center text-white/90'>
