@@ -13,10 +13,8 @@ export default function Home() {
       <Introduction />
       <MeetingInfo />
       <Themes />
-      <div className="w-full flex flex-col-reverse lg:flex-col">
       <Pricing />
       <CTA />
-      </div>
       <Footer />
     </div>
   );
