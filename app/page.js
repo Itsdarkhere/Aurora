@@ -4,7 +4,6 @@ import Hero from "@/components/Hero";
 import Introduction from "@/components/Introduction";
 import MeetingInfo from "@/components/MeetingInfo";
 import Pricing from "@/components/Pricing";
-import Test from "@/components/Test";
 import Themes from "@/components/Themes";
 
 export default function Home() {
