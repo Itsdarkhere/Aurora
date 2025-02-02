@@ -7,7 +7,7 @@ export default function Pricing() {
             Hinnasto
           </h4>
           <p className=' text-[#4C676D] text-lg md:text-xl'>
-           Valmennuksen kesto on 45 min per kerta!
+          Hyödynnä alennus suuremmista ostoksista!
           </p>
         </div>
         <div className='flex flex-col justify-center items-center gap-4 w-full'>
