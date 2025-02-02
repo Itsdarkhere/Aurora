@@ -16,7 +16,6 @@ export async function POST(req) {
         text: message,
     }
 
-    return NextResponse.json({ error: 'Fields not filled in the form...' }, { status: 400 })
     return sgMail
         .send(msg)
         .then(() => {
