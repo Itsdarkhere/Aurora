@@ -7,11 +7,11 @@ export default function Pricing() {
             Hinnasto
           </h4>
           <p className=' text-[#4C676D] text-lg md:text-xl'>
-            Hyödynnä alennus suuremmista ostoksista!
+           Valmennuksen kesto on 45 min per kerta!
           </p>
         </div>
         <div className='flex flex-col justify-center items-center gap-4 w-full'>
-          <PriceTwo textOne={"1x Valmennus"} textTwo={"€90"} badgeText={""} />
+          <PriceTwo textOne={"45 min Valmennus"} textTwo={"€90"} badgeText={""} />
           <PriceTwo
             textOne={"3x Valmennus"}
             textTwo={"€265"}
@@ -48,10 +48,15 @@ function PriceTwo({ textOne, textTwo, badgeText }) {
   return (
     <div className='flex flex-row w-full shadow-xl bg-[#628C7E] md:max-w-[886px] justify-between items-center px-6 md:px-12 py-8 rounded-xl'>
       <div>
-        <p className=' text-[#F2F2F2] font-semibold text-2xl md:text-3xl'>{textOne}</p>
-        {badgeText && <p className=" text-[#D5E2DD] font-medium">{badgeText}</p>}
+        <div className="flex flex-col gap-1">
+          <p className='text-[#F2F2F2] font-semibold text-2xl md:text-3xl'>{textOne}</p>
+          {badgeText && <p className='text-[#D5E2DD] text-sm md:text-base'>45 min / kerta</p>}
+        </div>
       </div>
-      <h6 className=' text-white font-bold text-[32px] md:text-5xl'>{textTwo}</h6>
+      <div className=" flex flex-col items-end">
+      <h6 className='text-white font-bold text-[32px] md:text-5xl'>{textTwo}</h6>
+      {badgeText && <p className="text-[#D5E2DD] font-medium">{badgeText}</p>}
+      </div>
     </div>
   );
 }
