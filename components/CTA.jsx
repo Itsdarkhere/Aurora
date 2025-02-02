@@ -5,9 +5,11 @@ import { useState } from "react";
 
 export default function CTA() {
   const [submitted, setSubmitted] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
 
   const handleSubmit = async (event) => {
     event.preventDefault();
+    setIsLoading(true);
 
     try {
       const res = await fetch("/api/contact", {
@@ -22,16 +24,15 @@ export default function CTA() {
       });
   
       if (!res.ok) {
-        // Handle HTTP errors (status codes outside 200-299 range)
         console.log('Form submission failed:', res.status, await res.text());
         return;
       }
   
-      // Only set submitted to true if the request was successful
       setSubmitted(true);
     } catch (error) {
-      // Handle network errors or other exceptions
       console.log('Error submitting form:', error);
+    } finally {
+      setIsLoading(false);
     }
   };
 
@@ -85,10 +86,20 @@ export default function CTA() {
               </div>
 
               <button
-                type='submit'
-                className='w-full py-4 px-6 bg-theme text-white font-medium rounded-lg'
+                type="submit"
+                disabled={isLoading}
+                className="w-full py-4 px-6 bg-theme text-white font-medium rounded-lg relative"
               >
-                Send Message
+                {isLoading ? (
+                  <>
+                    <span className="opacity-0">Send Message</span>
+                    <div className="absolute inset-0 flex items-center justify-center">
+                      <div className="h-5 w-5 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
+                    </div>
+                  </>
+                ) : (
+                  "Send Message"
+                )}
               </button>
             </form>
           ) : (
