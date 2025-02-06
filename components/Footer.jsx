@@ -1,6 +1,9 @@
 import Link from "next/link";
 import React from "react";
-import { Instagram, Twitter, Linkedin } from "lucide-react";
+import tiktok from "../public/tiktok.svg"
+import linkedin from "../public/linkedin.svg"
+import { Instagram, Twitter, Linkedin, Tiktok } from "lucide-react";
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -16,40 +19,27 @@ const Footer = () => {
           Varaus
         </Link>
       </div>
-      <div className=' w-full max-w-7xl flex flex-row gap-4 justify-between pt-6'>
-        <div className='flex flex-col'>
-          <h5 className='mb-5 font-medium text-sm text-white'>Linkit</h5>
-          <Link
-            href='/tietoa-minusta'
-            className=' font-light text-sm text-white text-opacity-60 mb-[6px]'
-          >
-            Aurora
-          </Link>
+      <div className=' w-full max-w-7xl flex flex-col md:flex-row gap-8 justify-between pt-6'>
+        {/* <div className='flex flex-col'>
           <Link
             href='/varaus'
             className=' font-light text-sm text-white text-opacity-60'
           >
             Varaus
           </Link>
-        </div>
+        </div> */}
         <div className='flex flex-col'>
-          <h5 className='mb-5 font-medium text-sm text-white'>Yhteystiedot</h5>
-          <p className=' font-light text-sm text-white text-opacity-60 mb-[6px]'>
-            +1 891 989-11-91
-          </p>
+          {/* <h5 className='mb-5 font-medium text-sm text-white'>Yhteystiedot</h5> */}
           <p className=' font-light text-sm text-white text-opacity-60'>
-            help@logoipsum.com
+            aurora.amanda.huovinen@gmail.com
           </p>
         </div>
-        <div className='flex flex-col md:flex-row gap-4'>
-          <Link href="https://linkedin.com" target="_blank" className=' w-10 h-10 text-white flex justify-center items-center rounded-lg bg-white bg-opacity-10'>
-            <Instagram size={24} />
+        <div className='flex flex-row gap-4'>
+          <Link href="https://www.linkedin.com/in/aurora-huovinen" target="_blank" className=' w-10 h-10 text-white flex justify-center items-center rounded-lg bg-white bg-opacity-10'>
+            <Image alt="linkedin logo" src={linkedin} height={24} width={24} />
           </Link>
-          <Link href="https://linkedin.com" target="_blank" className=' w-10 h-10 text-white flex justify-center items-center rounded-lg bg-white bg-opacity-10'>
-            <Twitter size={24} />
-          </Link>
-          <Link href="https://linkedin.com" target="_blank" className=' w-10 h-10 text-white flex justify-center items-center rounded-lg bg-white bg-opacity-10'>
-            <Linkedin size={24} />
+          <Link href="https://www.tiktok.com/@psykologiaurora" target="_blank" className=' w-10 h-10 text-white flex justify-center items-center rounded-lg bg-white bg-opacity-10'>
+            <Image alt="tiktok logo" src={tiktok} height={24} width={24} />
           </Link>
         </div>
       </div>
