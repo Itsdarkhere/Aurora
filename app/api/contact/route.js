@@ -9,7 +9,7 @@ export async function POST(req) {
     }
 
     const msg = {
-        to: 'valtteri@vjxsoft.com',
+        to: 'aurora.amanda.huovinen@gmail.com',
         from: 'support@vjxsoft.com', 
         replyTo: email,
         subject: `Viesti sähköpostista: ${email}`,
@@ -22,6 +22,7 @@ export async function POST(req) {
             return NextResponse.json({message: 'All good, email sent'}, { status: 200 })
         })
         .catch((error) => {
+            console.log("error: ", error);
             return NextResponse.json({error: error}, { status: 500 })
         })
 
