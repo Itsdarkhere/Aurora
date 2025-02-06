@@ -9,7 +9,7 @@ export async function POST(req) {
     }
 
     const msg = {
-        to: 'Aurora.amanda.huovinen@gmail.com',
+        to: 'valtteri@vjxsoft.com',
         from: 'support@vjxsoft.com', 
         replyTo: email,
         subject: `Viesti sähköpostista: ${email}`,
