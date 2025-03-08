@@ -6,8 +6,8 @@ export default function Pricing() {
           <h4 className=' text-theme font-bold text-4xl md:text-5xl'>
             Hinnasto
           </h4>
-          <p className=' text-[#4C676D] text-lg md:text-xl'>
-          Hyödynnä alennus suuremmista ostoksista!
+          <p className=' text-[#4C676D] max-w-lg text-lg'>
+          Ensimmäisellä tapaamisella kartoitetaan sinulle sopiva paketti ja laskutus tapaamisen jälkeen!
           </p>
         </div>
         <div className='flex flex-col justify-center items-center gap-4 w-full'>
