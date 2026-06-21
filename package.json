@@ -2,24 +2,35 @@
   "name": "aurora",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
+  "sideEffects": false,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "remix vite:dev",
+    "build": "remix vite:build",
+    "start": "wrangler pages dev ./build/client",
+    "deploy": "wrangler pages deploy ./build/client",
+    "typecheck": "tsc"
   },
   "dependencies": {
+    "@fontsource/indie-flower": "^5.0.8",
+    "@fontsource/poppins": "^5.0.8",
+    "@remix-run/cloudflare": "^2.15.2",
+    "@remix-run/cloudflare-pages": "^2.15.2",
+    "@remix-run/react": "^2.15.2",
     "@sendgrid/mail": "^8.1.4",
+    "isbot": "^5.1.17",
     "lucide-react": "^0.462.0",
-    "next": "15.0.3",
     "react": "^18.2.0",
     "react-calendly": "^4.3.1",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "eslint": "^8",
-    "eslint-config-next": "15.0.3",
+    "@cloudflare/workers-types": "^4.20241127.0",
+    "@remix-run/dev": "^2.15.2",
+    "autoprefixer": "^10.4.20",
     "postcss": "^8",
-    "tailwindcss": "^3.4.1"
+    "tailwindcss": "^3.4.1",
+    "vite": "^5.4.11",
+    "wrangler": "^3.93.0"
   }
 }
